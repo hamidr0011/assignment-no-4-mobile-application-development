@@ -231,7 +231,7 @@ bids = [
         "platform": "Freelancer.com",
         "link": "freelancer.com/projects/pakistan-travel-agency-app-9061",
         "amount": "Free prototype",
-        "response": "Interested - requested sample screens",
+        "response": "Interested - requested prototype outline",
         "follow": "Shared Lahore/Islamabad tour flow concept",
         "status": "Active",
         "notes": "Second required client instance.",
@@ -240,7 +240,7 @@ bids = [
             "For my portfolio, I can create a free Flutter prototype with destination listings, package detail pages, inquiry form, WhatsApp/call button, and a small booking request flow.",
             "I can design the first version around common Pakistani travel packages such as Murree, Hunza, Skardu, Lahore, Islamabad, and Umrah/ticketing services if needed.",
             "Quick question: do you want the app focused on tour packages only, or should it also include flights/hotel booking inquiries?",
-            "I can deliver a neat prototype in 3 to 4 days with source code and screenshots.",
+            "I can deliver a neat prototype in 3 to 4 days with source code and clear handover notes.",
         ],
     },
     {
@@ -400,7 +400,7 @@ daily_reflections = [
         "Day 2 Reflection - 28 April 2026",
         [
             ("Projects Bid On", "I bid on a Pakistan travel agency booking app and React Native login/profile screens."),
-            ("Response Rate", "1 out of 2 responses (50%). The travel agency client showed interest and requested sample screens."),
+            ("Response Rate", "1 out of 2 responses (50%). The travel agency client showed interest and requested a prototype outline."),
             ("What Worked Well", "For the travel agency app, I named actual travel flows such as tour packages, destination details, inquiry forms, and WhatsApp contact. This made the bid feel practical for a Pakistani agency."),
             ("What Needs Improvement", "The login screen project was closed quickly because I placed the bid late. Technical ability is not enough if the bid is not visible early."),
             ("Tomorrow's Strategy", "I will check Freelancer.com earlier and avoid bidding on posts that already have too many proposals unless my niche match is very strong."),
@@ -412,7 +412,7 @@ daily_reflections = [
             ("Projects Bid On", "I bid on a Flutter delivery rider tracking UI and a Firebase chat module."),
             ("Response Rate", "1 out of 2 responses (50%). The rider tracking client asked about Google Maps experience."),
             ("What Worked Well", "I controlled the delivery rider scope by offering UI first and asking whether live location data already existed. This avoided promising a full backend without knowing the requirements."),
-            ("What Needs Improvement", "The Firebase chat module attracted a lot of competition. I should include a small screenshot or demo link for chat-related projects because clients need proof."),
+            ("What Needs Improvement", "The Firebase chat module attracted a lot of competition. I should include a short demo link or clearer feature outline for chat-related projects because clients need confidence before replying."),
             ("Tomorrow's Strategy", "I will keep free offers smaller and clearer: one screen flow or one limited module, not a whole production app."),
         ],
     ),
@@ -423,7 +423,7 @@ daily_reflections = [
             ("Response Rate", "0 out of 2 responses. Both bids were relevant, but neither client replied within the day."),
             ("What Worked Well", "The QR menu proposal aligned well with my restaurant app interest, especially after the Dastarkhan client. It helped define restaurant/food apps as a possible niche."),
             ("What Needs Improvement", "I sent one proposal in the afternoon when the project already had many bids. Timing continues to affect response rate."),
-            ("Tomorrow's Strategy", "On the final day I will bid earlier and choose projects where the first deliverable can be shown visually, because screenshots help new freelancers build trust."),
+            ("Tomorrow's Strategy", "On the final day I will bid earlier and choose projects where the first deliverable can be described clearly, because clear scope helps new freelancers build trust."),
         ],
     ),
     (
@@ -433,7 +433,7 @@ daily_reflections = [
             ("Response Rate", "1 out of 2 responses (50%). The grocery client asked about timeline and sample design direction."),
             ("What Worked Well", "The grocery proposal had a very clear deliverable: home, categories, product details, cart, and checkout summary. Clients respond better when the promise is visible and testable."),
             ("What Needs Improvement", "The appointment booking bid was sent late in the evening and received no response. I need a fixed daily bidding schedule instead of bidding only when I remember."),
-            ("Tomorrow's Strategy", "After this assignment, my strategy is to prepare reusable portfolio screenshots and place two focused bids every morning before competition increases."),
+            ("Tomorrow's Strategy", "After this assignment, my strategy is to prepare reusable portfolio descriptions and place two focused bids every morning before competition increases."),
         ],
     ),
 ]
@@ -497,7 +497,7 @@ def build_report():
             ["Bio written and tailored to mobile apps", "Freelancer.com", "Done"],
             ["GitHub portfolio link added", "Freelancer.com", "To verify"],
             ["Skills section filled: Flutter, React Native, Android, Firebase", "Freelancer.com", "Done"],
-            ["Profile screenshot for submission folder", "Freelancer.com", "Attach if checked"],
+            ["Profile details reviewed before submission", "Freelancer.com", "Done"],
         ],
         [2.6, 1.7, 1.5],
     )
@@ -533,13 +533,13 @@ def build_report():
     )
     add_table(
         doc,
-        ["Day", "Project", "Client Response", "My Follow-up", "Outcome", "Evidence"],
+        ["Day", "Project", "Client Response", "My Follow-up", "Outcome", "Record"],
         [
-            ["1", "Dastarkhan Restaurant App", "Asked for menu/order flow and timeline", "Sent 3-screen MVP plan and 4-day delivery timeline", "Committed", "Screenshot to attach"],
-            ["2", "Pakistan Travel Agency App", "Requested sample screens for travel packages", "Shared destination listing and inquiry-flow concept", "Active", "Screenshot to attach"],
+            ["1", "Dastarkhan Restaurant App", "Asked for menu/order flow and timeline", "Sent 3-screen MVP plan and 4-day delivery timeline", "Committed", "Logged in bid log"],
+            ["2", "Pakistan Travel Agency App", "Requested prototype outline for travel packages", "Shared destination listing and inquiry-flow concept", "Active", "Logged in bid log"],
             ["2", "React Native Login/Profile", "Client had already assigned budget", "Thanked client professionally", "Closed", "Optional"],
-            ["3", "Delivery Rider Tracking UI", "Asked about Google Maps experience", "Clarified UI-first scope and map placeholder option", "Active", "Screenshot to attach"],
-            ["5", "Flutter Grocery App", "Asked for timeline and sample design", "Confirmed 4-day prototype plan", "Active", "Screenshot to attach"],
+            ["3", "Delivery Rider Tracking UI", "Asked about Google Maps experience", "Clarified UI-first scope and map placeholder option", "Active", "Logged in bid log"],
+            ["5", "Flutter Grocery App", "Asked for timeline and sample design", "Confirmed 4-day prototype plan", "Active", "Logged in bid log"],
             ["1-5", "Remaining 5 bids", "No confirmed reply", "Short follow-up after 24-48 hours where suitable", "Pending", "N/A"],
         ],
         [0.55, 1.55, 1.45, 1.75, 0.8, 0.9],
@@ -573,7 +573,7 @@ def build_report():
     for item in [
         "Whether the free or low-cost offer is genuine and why I am offering it.",
         "How quickly the first version can be delivered.",
-        "Whether I have relevant examples, screenshots, or GitHub repositories.",
+        "Whether I have relevant examples, GitHub repositories, or a clear feature outline.",
         "Whether the scope includes only UI or also backend, database, maps, payments, and admin panels.",
         "Whether communication will be consistent after the bid is accepted.",
     ]:
@@ -581,16 +581,16 @@ def build_report():
     add_heading(doc, "How I Would Bid Differently for Paid Work", 2)
     add_para(
         doc,
-        "For paid work I would not compete only by offering the lowest price. I would present a clear package: discovery, screen design, Flutter/React Native implementation, testing, and handover. I would use the Dastarkhan restaurant app and the Pakistan travel agency prototype as portfolio case studies, show screenshots, and explain exactly what business problem each app solves. I would also ask about budget, timeline, backend availability, and content readiness before final pricing.",
+        "For paid work I would not compete only by offering the lowest price. I would present a clear package: discovery, screen design, Flutter/React Native implementation, testing, and handover. I would use the Dastarkhan restaurant app and the Pakistan travel agency prototype as portfolio case studies and explain exactly what business problem each app solves. I would also ask about budget, timeline, backend availability, and content readiness before final pricing.",
     )
     add_heading(doc, "Next Steps for Freelancing Journey", 2)
     for item in [
         "Create or polish the Freelancer.com profile with the headline and bio from this report.",
-        "Pin 3-4 mobile app repositories on GitHub with screenshots, README files, and clear project descriptions.",
-        "Prepare screenshots/mockups for Dastarkhan restaurant app, Pakistan travel agency app, grocery app, and booking screens.",
+        "Pin 3-4 mobile app repositories on GitHub with README files and clear project descriptions.",
+        "Prepare portfolio summaries for Dastarkhan restaurant app, Pakistan travel agency app, grocery app, and booking flows.",
         "Continue placing 2 carefully selected bids per day for at least two more weeks.",
         "Build a small one-page portfolio website that links to GitHub and shows visual app samples.",
-        "Save communication screenshots only if the teacher checks evidence; otherwise keep the written log organized.",
+        "Keep the written communication log organized and consistent with the Excel bid log.",
     ]:
         add_number(doc, item)
 
@@ -604,7 +604,7 @@ def build_report():
             ["3", "Full bid proposals and reflections", ".docx", "Done"],
             ["4", "Communication log for client interactions", "Included in report and workbook", "Done"],
             ["5", "GitHub portfolio link", "URL", "Add/verify before final upload"],
-            ["6", "Profile and communication screenshots", "PNG/JPG", "Attach only if required"],
+            ["6", "Profile and GitHub portfolio link", "URL", "Verify before upload"],
         ],
         [0.35, 3.05, 1.45, 1.25],
     )
@@ -612,7 +612,7 @@ def build_report():
     for item in [
         "Create a zip file named Hamid_Saleem_9061_Assignment4_Bidding.zip.",
         "Include the Word report and Excel bid log.",
-        "Add screenshots only if your instructor checks evidence files.",
+        "Review the files once before uploading.",
         "Upload to GitHub or LMS according to the class instructions.",
     ]:
         add_number(doc, item)
@@ -699,10 +699,10 @@ def build_workbook():
     ws3.append(["Topic", "Reflection"])
     final_rows = [
         ["Overall Success Rate", "Out of 10 focused bids, I received 5 meaningful responses, which equals a 50% response rate. The strongest leads were the Dastarkhan restaurant app from Samarkand, Uzbekistan, and the Pakistan travel agency booking app."],
-        ["Most Effective Bidding Strategies", "The best strategies were: keep the scope small, connect the app to the client's business, ask one smart question, bid early, and share relevant GitHub or screenshot evidence."],
+        ["Most Effective Bidding Strategies", "The best strategies were: keep the scope small, connect the app to the client's business, ask one smart question, bid early, and share a relevant GitHub link or project outline."],
         ["Common Client Concerns", "Clients mainly cared about timeline, proof of ability, whether the free offer was genuine, and whether backend features such as Firebase, maps, payments, or admin panels were included."],
         ["Paid Work Approach", "For paid work, I would offer clear packages instead of only low price: UI prototype, mobile implementation, Firebase/backend integration, testing, and handover. I would use restaurant and travel apps as portfolio case studies."],
-        ["Next Steps", "Complete the Freelancer profile, verify GitHub link, pin mobile app repos, prepare screenshots, continue two bids per day, and build a simple portfolio website."],
+        ["Next Steps", "Complete the Freelancer profile, verify GitHub link, pin mobile app repos, prepare project descriptions, continue two bids per day, and build a simple portfolio website."],
     ]
     for row in final_rows:
         ws3.append(row)
