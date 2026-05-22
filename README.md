@@ -10,7 +10,6 @@
 - `Hamid_Saleem_9061_Assignment4_Bidding_Report.docx` - complete Word report with profile setup, 10 bids, communication log, daily reflections, and final reflection.
 - `Hamid_Saleem_9061_Assignment4_BidLog.xlsx` - Excel bid log with bid summary, daily reflections, final reflection, and response summary chart.
 - `Hamid_Saleem_9061_Assignment4_Bidding.zip` - zipped submission package containing the report and workbook.
-- `build_assignment4_hamid.py` - script used to generate the assignment files.
 
 ## Main Client Examples Included
 
